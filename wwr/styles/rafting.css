@@ -94,3 +94,7 @@ article {
 article {
     background-color: var(--accent2-color);
 }
+
+.footer image {
+    width: 6px;
+}
