@@ -40,6 +40,20 @@ h2 {
     color: var(--primary-color);
 }
 
+article {
+    position: absolute;
+    background-color: #007bff33;
+    color: black;
+    width: 98%;
+    top: 400px;
+}
+
+h2 {
+    background-color: #0056b3c0;
+    text-align: center;
+    color: white;
+}
+
 nav,
 p,
 section,
