@@ -52,6 +52,8 @@ h2 {
     background-color: #0056b3c0;
     text-align: center;
     color: white;
+    padding: 10px;
+    margin: 10px;
 }
 
 nav,
@@ -74,6 +76,7 @@ article {
     display: block;
     width: 100%;
     height: auto;
+    float: right;
 }
 
 h1 {
@@ -93,7 +96,7 @@ article {
 }
 
 .hero article img {
-    float: right;
+
     width: 125px;
     border: #fff;
     margin: 10px;
