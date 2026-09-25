@@ -1,11 +1,11 @@
 :root {
-    --heading-background-color: darkblue;
-    --heading-height: auto;
-    --heading-text-align: center;
+    --heading-background-color: #111184;
+    --heading-text-color: #00000000;
+    --heading-font: 'Montserrat', Helvetica, sans-serif
 }
 
 nav {
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     padding: 10px;
 }
 
@@ -16,7 +16,7 @@ nav a {
 }
 
 h1 {
-    color: black;
+    color: var(--heading-text-color);
 }
 
 img {
@@ -63,6 +63,6 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
-    background-color: darkblue;
+    background-color: var(--heading-background-color);
     color: white;
 }
