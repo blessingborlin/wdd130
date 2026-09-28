@@ -99,5 +99,5 @@ article {
     width: 125px;
     border: #fff;
     margin: 10px;
-    box-shadow: black;
+    box-shadow: 5px 5px 10px black;
 }
