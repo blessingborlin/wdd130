@@ -76,7 +76,7 @@ nav a {
 article {
     position: absolute;
     background-color: var(--background-color);
-    color: white;
+    color: black;
     width: 96%;
     top: 400px;
 }
@@ -104,7 +104,7 @@ figure img {
 h2 {
     background-color: #0056b3c0;
     text-align: center;
-    color: var(--color2)
+    color: var(--color1)
 }
 
 h2 {
@@ -162,7 +162,7 @@ article {
 
 footer {
     background-color: var(--primary-color);
-    color: var(--color2);
+    color: var(--color1);
 
 }
 
