@@ -104,7 +104,11 @@ figure img {
 h2 {
     background-color: #0056b3c0;
     text-align: center;
-    color: var(--color1) padding: 10px;
+    color: var(--color1)
+}
+
+h2 {
+    padding: 10px;
     margin: 16px;
 }
 
