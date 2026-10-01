@@ -71,7 +71,7 @@ nav a {
 
 article {
     position: absolute;
-    background-color: #0056b3c0;
+    background-color: #ffff0080;
     color: black;
     width: 96%;
     top: 400px;
@@ -79,7 +79,7 @@ article {
 
 h1 {
     position: absolute;
-    background-color: #0056b3c0;
+    background-color: #ffff0080;
     color: #000;
     text-align: center;
     width: 96%;
@@ -116,6 +116,10 @@ article {
     height: auto;
     float: right;
 
+}
+
+section.img {
+    width: 9px;
 }
 
 .hero article h1 {
