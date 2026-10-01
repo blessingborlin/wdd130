@@ -86,6 +86,15 @@ h1 {
 
 }
 
+figure img {
+    width: 50px;
+    height: 50px
+}
+
+figure img {
+    object-fit: cover;
+}
+
 h2 {
     background-color: #0056b3c0;
     text-align: center;
@@ -116,32 +125,6 @@ article {
     height: auto;
     float: right;
 
-}
-
-figure img {
-    justify-content: space-around;
-    width: 90px;
-    display: block;
-    justify-content: center;
-    height: 20px;
-    object-fit: cover;
-
-}
-
-figure {
-    text-align: center;
-}
-
-figure {
-    display: flex;
-    flex-wrap: wrap;
-    width: 30px;
-
-}
-
-figure {
-    display: flex;
-    flex-direction: row;
 }
 
 .hero article h1 {
