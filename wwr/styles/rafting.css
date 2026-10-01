@@ -7,6 +7,7 @@
     /* light golden yellow */
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
+    --background-color: #ffff0080;
 }
 
 header {
@@ -71,7 +72,7 @@ nav a {
 
 article {
     position: absolute;
-    background-color: #ffff0080;
+    background-color: var(--background-color);
     color: black;
     width: 96%;
     top: 400px;
@@ -79,7 +80,7 @@ article {
 
 h1 {
     position: absolute;
-    background-color: #ffff0080;
+    background-color: var(--background-color);
     color: #000;
     text-align: center;
     width: 96%;
