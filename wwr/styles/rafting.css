@@ -110,3 +110,7 @@ article {
     margin: 10px;
     box-shadow: 5px 5px 10px black;
 }
+
+footer img {
+    width: 90px;
+}
