@@ -84,7 +84,7 @@ article {
 h1 {
     position: absolute;
     background-color: var(--background-color);
-    color: #000;
+    color: var(--color1);
     text-align: center;
     width: 96%;
 
@@ -144,7 +144,7 @@ article {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: var(--color1);
+    color: var(--color2);
 
 }
 
@@ -156,7 +156,7 @@ article {
 .hero article img {
     float: right;
     width: 125px;
-    border: var(--color1);
+    border: black;
     margin: 10px;
     box-shadow: 5px 5px 10px black;
 }
@@ -169,4 +169,12 @@ footer {
 
 footer img {
     width: 50px;
+}
+
+footer {
+    display: flex;
+}
+
+.socialmedia {
+    margin-left: auto;
 }
