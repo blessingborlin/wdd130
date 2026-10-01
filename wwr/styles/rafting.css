@@ -46,6 +46,15 @@ article {
     top: 400px;
 }
 
+h1 {
+    position: absolute;
+    background-color: #264653;
+    color: #000;
+    text-align: center;
+    width: 96%;
+
+}
+
 h2 {
     background-color: #0056b3c0;
     text-align: center;
