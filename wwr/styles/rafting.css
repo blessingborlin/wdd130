@@ -44,6 +44,12 @@ header {
     align-items: center;
 }
 
+header img {
+    width: 150px;
+    margin: 90px;
+
+}
+
 nav ul {
     display: flex;
     justify-content: center;
@@ -65,7 +71,7 @@ nav a {
 
 article {
     position: absolute;
-    background-color: #007bff33;
+    background-color: #0056b3c0;
     color: black;
     width: 96%;
     top: 400px;
@@ -73,7 +79,7 @@ article {
 
 h1 {
     position: absolute;
-    background-color: #264653;
+    background-color: #0056b3c0;
     color: #000;
     text-align: center;
     width: 96%;
