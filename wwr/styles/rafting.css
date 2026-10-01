@@ -20,11 +20,6 @@ header {
     box-sizing: border-box;
 }
 
-.grid {
-    display: grid;
-    place-items: center;
-}
-
 body {
     font-family: var(--body-font);
     color: var(--accent1-color);
@@ -89,6 +84,7 @@ article {
     width: 100%;
     height: auto;
     float: right;
+
 }
 
 .hero article h1 {
