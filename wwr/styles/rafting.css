@@ -118,8 +118,30 @@ article {
 
 }
 
-section.img {
-    width: 9px;
+figure img {
+    justify-content: space-around;
+    width: 90px;
+    display: block;
+    justify-content: center;
+    height: 20px;
+    object-fit: cover;
+
+}
+
+figure {
+    text-align: center;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    width: 30px;
+
+}
+
+figure {
+    display: flex;
+    flex-direction: row;
 }
 
 .hero article h1 {
@@ -147,6 +169,12 @@ section.img {
     box-shadow: 5px 5px 10px black;
 }
 
+footer {
+    background-color: #055a05;
+    color: #000;
+
+}
+
 footer img {
-    width: 90px;
+    width: 50px;
 }
