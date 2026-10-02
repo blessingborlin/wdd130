@@ -40,6 +40,11 @@ footer {
     margin: 0 auto;
 }
 
+h2 {
+    padding: 10px;
+    margin: 16px;
+}
+
 h1,
 h2 {
     font-family: var(--heading-font);
