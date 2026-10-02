@@ -40,11 +40,6 @@ footer {
     margin: 0 auto;
 }
 
-h2 {
-    padding: 10px;
-    margin: 16px;
-}
-
 .history {
     display: flex;
     align-items: center;
@@ -131,6 +126,8 @@ figure img {
 }
 
 h2 {
+    padding: 10px;
+    margin: 16px;
     background-color: #0056b3c0;
     text-align: center;
     color: var(--color1)
