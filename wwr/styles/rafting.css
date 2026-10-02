@@ -120,9 +120,10 @@ figure {
 }
 
 figure img {
-    width: 100px;
+    width: 125px;
     height: 120px;
     object-fit: cover;
+
 }
 
 h2 {
