@@ -1,5 +1,5 @@
 body {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 * {
@@ -11,13 +11,19 @@ body {
 body {
     font-family: Merriweather, Georgia, serif;
     font-size: 1.2em;
-    color: #333;
+    color: black;
     background: #fff;
 }
 
 header {
     margin: 0 auto;
     width: 650px;
+    color: blue;
+}
+
+header,
+form p {
+    color: blue;
 }
 
 h1 {
