@@ -65,7 +65,6 @@ footer {
     object-fit: cover;
 }
 
-h1,
 h2 {
     font-family: var(--heading-font);
     color: var(--color2);
@@ -116,16 +115,6 @@ article {
     top: 400px;
 }
 
-h1 {
-    position: absolute;
-    background-color: var(--background-color);
-    color: var(--color2);
-    text-align: center;
-    width: 96%;
-    margin-top: 20px;
-
-}
-
 figure {
     display: inline-block;
     margin: 10px;
@@ -141,9 +130,8 @@ figure img {
 h2 {
     padding: 10px;
     margin: 16px;
-    background-color: #0056b3c0;
     text-align: center;
-    color: var(--color1)
+
 }
 
 nav,
@@ -193,6 +181,17 @@ article {
     border: black;
     margin: 10px;
     box-shadow: 5px 5px 10px black;
+}
+
+fieldset img {
+    padding: 10px;
+    margin-top: 10;
+    margin-left: 90px;
+}
+
+fieldset {
+    text-align: center;
+    display: block;
 }
 
 footer {
