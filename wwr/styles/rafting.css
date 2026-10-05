@@ -187,14 +187,33 @@ form {
     text-align: center;
 }
 
+table img {
+    width: 380px;
+    height: 280px;
+}
+
 button {
     width: 370px;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+h1,
+h2 {
+    align-items: center;
 }
 
 fieldset img {
     padding: 10px;
     margin-top: 10;
     margin-left: 90px;
+    width: 150px;
 }
 
 fieldset {
