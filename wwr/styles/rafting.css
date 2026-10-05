@@ -66,8 +66,10 @@ footer {
 }
 
 h2 {
-    font-family: var(--heading-font);
-    color: var(--color2);
+
+    padding: 10px;
+    margin: 16px;
+    text-align: center;
 }
 
 header img {
@@ -124,13 +126,6 @@ figure img {
     width: 125px;
     height: 120px;
     object-fit: cover;
-
-}
-
-h2 {
-    padding: 10px;
-    margin: 16px;
-    text-align: center;
 
 }
 
