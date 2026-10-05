@@ -183,6 +183,10 @@ article {
     box-shadow: 5px 5px 10px black;
 }
 
+form {
+    text-align: center;
+}
+
 fieldset img {
     padding: 10px;
     margin-top: 10;
