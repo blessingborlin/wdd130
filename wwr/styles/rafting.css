@@ -182,9 +182,9 @@ form {
     text-align: center;
 }
 
-table img {
-    width: 380px;
-    height: 280px;
+td img {
+    width: 400px;
+    height: auto;
 }
 
 button {
@@ -220,6 +220,7 @@ footer {
     background-color: var(--primary-color);
     color: var(--color1);
     display: flex;
+
 }
 
 footer img {
