@@ -42,33 +42,40 @@
                 <td>
                     <form>
 
-                        <label>Name</label>
-                        <input type="text" placeholder="Placeholder">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Placeholder">
+
                         <br><br>
 
-                        <label>Email</label>
-                        <input type="email" placeholder="Placeholder">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Placeholder">
+
                         <br><br>
 
-                        <b>Message Purpose</b><br>
+                        <label for="purpose">Message Purpose</label>
+                        <textarea id="purpose" name="purpose"></textarea>
 
-                        <input type="radio" name="purpose">
-                        General Inquiry<br>
-
-                        <input type="radio" name="purpose">
-                        Reservation Question<br>
-
-                        <input type="radio" name="purpose">
-                        Website Suggestion<br><br>
-
-                        <b>Message</b><br>
-                        <textarea placeholder="Type here"></textarea>
                         <br><br>
 
-                        <input type="checkbox" checked>
-                        Please Subscribe me to the monthly newsletter
-                        <br>
-                        <button>Submit</button>
+                        <p>Would you like to receive updates?</p>
+
+                        <input type="radio" id="yes" name="updates" value="yes">
+                        <label for="yes">Yes</label>
+
+                        <input type="radio" id="no" name="updates" value="no">
+                        <label for="no">No</label>
+
+                        <input type="radio" id="maybe" name="updates" value="maybe">
+                        <label for="maybe">Maybe</label>
+
+                        <br><br>
+
+                        <input type="checkbox" id="agree" name="agree" value="yes">
+                        <label for="agree">I agree to the terms</label>
+
+                        <br><br>
+
+                        <button type="submit">Submit</button>
 
                     </form>
                 </td>
