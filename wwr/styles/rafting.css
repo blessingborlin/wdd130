@@ -83,17 +83,9 @@ p {
 
 }
 
-.hero {
-    position: relative;
-}
-
 main a {
     color: black;
     background-color: lightblue;
-}
-
-.hero {
-    position: relative;
 }
 
 main div .hero-text {
