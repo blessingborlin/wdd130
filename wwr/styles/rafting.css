@@ -33,12 +33,13 @@ body {
 }
 
 .hero {
-    position: relative;
+    position: absolute;
 }
 
 .hero img {
     width: 100%;
     display: block;
+
 }
 
 .hero-text {
