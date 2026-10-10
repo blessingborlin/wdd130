@@ -269,6 +269,11 @@ form {
     text-align: center;
 }
 
+p,
+.button {
+    background-color: #f5deb6;
+}
+
 td img {
     width: 400px;
     height: auto;
