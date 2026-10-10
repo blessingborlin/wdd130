@@ -32,6 +32,41 @@ body {
     color: var(--accent1-color);
 }
 
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hero h2 {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hero h2 {
+    position: absolute;
+    bottom: -350px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 10px;
+    z-index: 2;
+    width: 90%;
+}
+
 h2 {
     color: blue;
     background-color: #e9c46a;
@@ -50,8 +85,12 @@ footer {
 
 main h1,
 p {
-    color: black;
+    color: purple;
 
+}
+
+.hero {
+    position: relative;
 }
 
 main a {
@@ -60,7 +99,7 @@ main a {
 }
 
 .hero {
-    position: absolute;
+    position: relative;
 }
 
 main div .hero-text {
