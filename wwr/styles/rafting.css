@@ -52,14 +52,6 @@ body {
 
 .hero h2 {
     position: absolute;
-    bottom: 20px;
-    left: 0;
-    width: 100%;
-    text-align: center;
-}
-
-.hero h2 {
-    position: absolute;
     bottom: -350px;
     left: 50%;
     transform: translateX(-50%);
